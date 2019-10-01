@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Brain Trainer</string>
+    <string name="new_game">НАЧАТЬ ЗАНОВО</string>
+    <string name="main_settings">Настройки</string>
+
+    <string-array name="difficulty_levels">
+        <item>Простой</item>
+        <item>Нормальный</item>
+        <item>Сложный</item>
+    </string-array>
+</resources>

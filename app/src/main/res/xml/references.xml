@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Настройки">
+
+        <ListPreference
+            android:key="Сложность"
+            android:entries="@array/difficulty_levels"
+            android:entryValues="@array/difficulty_levels"
+            android:title="Уровни сложности"
+            android:summary="Устанавливает уровень сложности"
+            android:defaultValue="1"
+            android:dialogTitle="Выберите уровень сложности:"/>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
